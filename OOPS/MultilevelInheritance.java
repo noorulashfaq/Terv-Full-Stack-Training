@@ -1,11 +1,10 @@
-package Inheritance;
 class ComputerScience {
 
     ComputerScience() {
         System.out.println("Computer Science is an interesting subject !!");
     }
 
-    void produce(){
+    void produce() {
         System.out.println("Produced by ComputerScience class");
     }
 
@@ -17,7 +16,7 @@ class Programming extends ComputerScience {
         System.out.println("Programming requires logical thinking");
     }
 
-    void show(){
+    void show() {
         System.out.println("Showing text from Programming class");
     }
 
@@ -29,14 +28,14 @@ class JavaProgramming extends Programming {
         System.out.println("Java is a popular programming language");
     }
 
-    void display(){
+    void display() {
         show();
         System.out.println("I am displaying from JavaProgramming class");
     }
 
 }
 
-public class MultilevelInheritanace {
+public class MultilevelInheritance {
 
     public static void main(String[] args) {
 

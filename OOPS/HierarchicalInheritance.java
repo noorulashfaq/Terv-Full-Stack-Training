@@ -1,4 +1,3 @@
-package Inheritance;
 
 import java.util.Scanner;
 
@@ -68,6 +67,8 @@ public class HierarchicalInheritance {
         System.out.println("Enter map: ");
         String s = sc.next();
         ts.titans(s);
+
+        sc.close();
 
     }
 }

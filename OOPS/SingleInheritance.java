@@ -1,4 +1,4 @@
-package Inheritance;
+
 class Cricket {
 
     int fours = 4, sixes = 6, singles = 1;
