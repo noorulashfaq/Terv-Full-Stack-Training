@@ -1,0 +1,530 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "DoublyLinkedList",
+      "request": "launch",
+      "mainClass": "DoublyLinkedList",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "SinglyLinkedList",
+      "request": "launch",
+      "mainClass": "SinglyLinkedList",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "DisariumNum",
+      "request": "launch",
+      "mainClass": "DisariumNum",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "AmicableNum",
+      "request": "launch",
+      "mainClass": "AmicableNum",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "jdk",
+      "request": "launch",
+      "name": "Launch Java App"
+    },
+    {
+      "type": "java",
+      "name": "Attach",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": "<debug port of the debuggee>"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Abstraction",
+      "request": "launch",
+      "mainClass": "Abstraction",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "HierarchicalInheritance",
+      "request": "launch",
+      "mainClass": "HierarchicalInheritance",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "LinkedList",
+      "request": "launch",
+      "mainClass": "LinkedList",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "MultilevelInheritance",
+      "request": "launch",
+      "mainClass": "MultilevelInheritance",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "MultipleInheritance",
+      "request": "launch",
+      "mainClass": "MultipleInheritance",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "SingleInheritance",
+      "request": "launch",
+      "mainClass": "SingleInheritance",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "SortingAlgorithms.BubbleSort",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T000_PatternA",
+      "request": "launch",
+      "mainClass": "T000_PatternA",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T000_PatternW",
+      "request": "launch",
+      "mainClass": "T000_PatternW",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T000_SplitAscDesc",
+      "request": "launch",
+      "mainClass": "T000_SplitAscDesc",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T001_HelloWorld",
+      "request": "launch",
+      "mainClass": "T001_HelloWorld",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T002_ArithmeticOps",
+      "request": "launch",
+      "mainClass": "T002_ArithmeticOps",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T003_IncDec",
+      "request": "launch",
+      "mainClass": "T003_IncDec",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T004_Shifting",
+      "request": "launch",
+      "mainClass": "T004_Shifting",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T005_LargestOfThree",
+      "request": "launch",
+      "mainClass": "T005_LargestOfThree",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T006_SimpleCalculator",
+      "request": "launch",
+      "mainClass": "T006_SimpleCalculator",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T007_PrintTables",
+      "request": "launch",
+      "mainClass": "T007_PrintTables",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T008_PrintPattern",
+      "request": "launch",
+      "mainClass": "T008_PrintPattern",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T009_SumOddOrEven",
+      "request": "launch",
+      "mainClass": "T009_SumOddOrEven",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T010_PhoneDigits",
+      "request": "launch",
+      "mainClass": "T010_PhoneDigits",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T011_ReverseInteger",
+      "request": "launch",
+      "mainClass": "T011_ReverseInteger",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T012_Prime",
+      "request": "launch",
+      "mainClass": "T012_Prime",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T013_Armstrong",
+      "request": "launch",
+      "mainClass": "T013_Armstrong",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T014_Palindrome",
+      "request": "launch",
+      "mainClass": "T014_Palindrome",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T015_LeapYear",
+      "request": "launch",
+      "mainClass": "T015_LeapYear",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T016_HorizontalPattern",
+      "request": "launch",
+      "mainClass": "T016_HorizontalPattern",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T017_VerticalPattern",
+      "request": "launch",
+      "mainClass": "T017_VerticalPattern",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T018_SqrPattern",
+      "request": "launch",
+      "mainClass": "T018_SqrPattern",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T019_HollowSqr",
+      "request": "launch",
+      "mainClass": "T019_HollowSqr",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T020_NumSqrPattern",
+      "request": "launch",
+      "mainClass": "T020_NumSqrPattern",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T021_RevNumSqrPattern",
+      "request": "launch",
+      "mainClass": "T021_RevNumSqrPattern",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T023_PatternH",
+      "request": "launch",
+      "mainClass": "T023_PatternH",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T024_PatternC",
+      "request": "launch",
+      "mainClass": "T024_PatternC",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T025_patternE",
+      "request": "launch",
+      "mainClass": "T025_patternE",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T026_Pattern8",
+      "request": "launch",
+      "mainClass": "T026_Pattern8",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T027_PatternX",
+      "request": "launch",
+      "mainClass": "T027_PatternX",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T028_Pattern0",
+      "request": "launch",
+      "mainClass": "T028_Pattern0",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T034_ArrayPrinting",
+      "request": "launch",
+      "mainClass": "T034_ArrayPrinting",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T035_ReverseArray",
+      "request": "launch",
+      "mainClass": "T035_ReverseArray",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T036_SumArray",
+      "request": "launch",
+      "mainClass": "T036_SumArray",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T037_SumOddEvenIndex",
+      "request": "launch",
+      "mainClass": "T037_SumOddEvenIndex",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T038_SumOddEvenElements",
+      "request": "launch",
+      "mainClass": "T038_SumOddEvenElements",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T039_SwapAdjacentElements",
+      "request": "launch",
+      "mainClass": "T039_SwapAdjacentElements",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T040_ArrayPrime",
+      "request": "launch",
+      "mainClass": "T040_ArrayPrime",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T041_CopyArray",
+      "request": "launch",
+      "mainClass": "T041_CopyArray",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T042_ArrayLargestNum",
+      "request": "launch",
+      "mainClass": "T042_ArrayLargestNum",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T043_SplitArray",
+      "request": "launch",
+      "mainClass": "T043_SplitArray",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T044_ConcatenateArray",
+      "request": "launch",
+      "mainClass": "T044_ConcatenateArray",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T045_FindElement",
+      "request": "launch",
+      "mainClass": "T045_FindElement",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T046_Array2D",
+      "request": "launch",
+      "mainClass": "T046_Array2D",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T047_RowColSumArray",
+      "request": "launch",
+      "mainClass": "T047_RowColSumArray",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T048_MaxRowElementArray",
+      "request": "launch",
+      "mainClass": "T048_MaxRowElementArray",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T049_DiagonalsSumArray",
+      "request": "launch",
+      "mainClass": "T049_DiagonalsSumArray",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T050_TransposeMatrix",
+      "request": "launch",
+      "mainClass": "T050_TransposeMatrix",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T051_SumArray2D",
+      "request": "launch",
+      "mainClass": "T051_SumArray2D",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T052_MultiplyArray2D",
+      "request": "launch",
+      "mainClass": "T052_MultiplyArray2D",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T053_PrimeMethods",
+      "request": "launch",
+      "mainClass": "T053_PrimeMethods",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T054_SimpleString",
+      "request": "launch",
+      "mainClass": "T054_SimpleString",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T055_PrintStrCount",
+      "request": "launch",
+      "mainClass": "T055_PrintStrCount",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T056_ReverseStr",
+      "request": "launch",
+      "mainClass": "T056_ReverseStr",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T057_PalindromeStr",
+      "request": "launch",
+      "mainClass": "T057_PalindromeStr",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T058_PasswordValidation",
+      "request": "launch",
+      "mainClass": "T058_PasswordValidation",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T059_FirstLetterUpper",
+      "request": "launch",
+      "mainClass": "T059_FirstLetterUpper",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T060_FindKey1",
+      "request": "launch",
+      "mainClass": "T060_FindKey1",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T061_FindKey2",
+      "request": "launch",
+      "mainClass": "T061_FindKey2",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T062_FindKey3",
+      "request": "launch",
+      "mainClass": "T062_FindKey3",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T063_FindKey4",
+      "request": "launch",
+      "mainClass": "T063_FindKey4",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "T064_NthPrimeSum",
+      "request": "launch",
+      "mainClass": "T064_NthPrimeSum",
+      "projectName": "Terv-Practice_5be388d6"
+    }
+  ]
+}
