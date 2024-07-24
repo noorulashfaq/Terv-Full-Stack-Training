@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "OccurrencesOfNumber",
+      "request": "launch",
+      "mainClass": "OccurrencesOfNumber",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "MergeAndSort",
+      "request": "launch",
+      "mainClass": "MergeAndSort",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "Merge",
+      "request": "launch",
+      "mainClass": "Merge",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "BinaryTreeTraversal",
+      "request": "launch",
+      "mainClass": "BinaryTreeTraversal",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "StackOperations",
+      "request": "launch",
+      "mainClass": "StackOperations",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
+      "name": "StackExample",
+      "request": "launch",
+      "mainClass": "StackExample",
+      "projectName": "Terv-Practice_5be388d6"
+    },
+    {
+      "type": "java",
       "name": "DoublyLinkedList",
       "request": "launch",
       "mainClass": "DoublyLinkedList",

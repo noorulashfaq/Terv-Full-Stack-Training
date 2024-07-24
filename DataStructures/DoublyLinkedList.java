@@ -200,7 +200,7 @@ public class DoublyLinkedList {
             System.out.println("------------------------------------------------------------------------");
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
-            int num, after, before, start, end;
+            int num, after, before;
 
             switch (choice) {
                 case 1:
@@ -300,7 +300,7 @@ public class DoublyLinkedList {
                     ll.search(num);
                     break;
                 case 5:
-                    // ll.display();
+                    ll.displayHeadToTail();
                     ll.findLength();
                     break;
                 case 6:
