@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Greet</title>
+  </head>
+  <body>
+    <style>
+      h1 {
+        color: blue;
+      }
+      .container {
+        background-color: beige;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      input {
+        background-color: rgb(247, 247, 247);
+        padding: 10px;
+        margin: 10px;
+        border: none;
+        border-radius: 5px;
+        border-bottom: 2px solid grey;
+      }
+      input:hover {
+      }
+      input:active {
+        border: none;
+      }
+
+      .display {
+        background-color: transparent;
+        border: 1px solid red;
+        color: red;
+        padding: 7px;
+        width: 20%;
+        border-radius: 15px;
+        cursor: pointer;
+      }
+      .display:hover {
+        background-color: red;
+        color: white;
+        transition-duration: 0.5s;
+      }
+      .display:active {
+        background-color: purple;
+      }
+      .btn-cls {
+        display: flex;
+      }
+      .inc-btn,
+      .dec-btn {
+        margin: 5px;
+        width: 50px;
+        padding: 7px;
+        font-size: 20px;
+        background-color: transparent;
+        color: green;
+        border-radius: 5px;
+        border: 1px solid green;
+      }
+      .inc-btn:hover,
+      .dec-btn:hover {
+        background-color: green;
+        color: white;
+        transition-duration: 0.5s;
+      }
+    </style>
+
+    <div class="container">
+      <h1>GREET ME</h1>
+      <h2><div id="root">Greetings !!</div></h2>
+      <div>
+        <label for="">First name : </label>
+        <input type="text" id="firstname" placeholder="First name" /><br />
+      </div>
+      <div>
+        <label for="">Last name : </label>
+        <input type="text" id="lastname" placeholder="Last name" /><br />
+      </div>
+      <br />
+      <button class="display" onclick="display()">Greet</button><br /><br />
+
+      <!-- </div> -->
+      <!-- <div class="counter-div"> -->
+      <strong>The counter value is :</strong>
+      <h1>
+        <div style="display: inline-block" id="num">0</div>
+      </h1>
+      <div class="btn-cls">
+        <button class="inc-btn" onclick="add()">+</button>
+        <button class="dec-btn" onclick="sub()">-</button>
+      </div>
+    </div>
+    <script>
+      function display() {
+        const firstname = document.getElementById("firstname").value;
+        const lastname = document.getElementById("lastname").value;
+        document.getElementById(
+          "root"
+        ).innerHTML = `Greetings ${firstname} ${lastname} !!`;
+      }
+      function add() {
+        const currnum = parseInt(document.getElementById("num").innerHTML, 10);
+        document.getElementById("num").innerHTML = currnum + 1;
+      }
+      function sub() {
+        const currnum = parseInt(document.getElementById("num").innerHTML, 10);
+        document.getElementById("num").innerHTML = currnum - 1;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="signup.css" />
+    <title>Sign Up</title>
+  </head>
+  <body>
+    <header>
+      <marquee behavior="" direction="right">
+        <h1>Welcome to Terv Pro</h1>
+      </marquee>
+    </header>
+    <section id="homepage">
+      <div id="signin">
+        <div class="signin-title">
+          <h1>Create a new account</h1>
+          <h5>Enter your details and signup</h5>
+        </div>
+        <input placeholder="First Name *" type="text" />
+        <input placeholder="Last Name *" type="text" />
+        <input placeholder="Email *" type="email" />
+        <input placeholder="Password *" type="password" />
+        <input type="date" />
+        <select>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <input placeholder="Mobile number *" type="tel" />
+        <div class="checkbox">
+          <input type="checkbox" class="checkbox-input" />
+          <label>I agree to terms and conditions</label>
+        </div>
+        <div class="btn">
+          <input
+            class="signup-btn"
+            onclick="signup()"
+            type="button"
+            value="Sign Up"
+          />
+        </div>
+        <p>
+          Already have an account? <a href="index.html"><b>Login</b></a>
+        </p>
+      </div>
+    </section>
+  </body>
+</html>

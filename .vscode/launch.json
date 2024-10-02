@@ -1,0 +1,378 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "T059_FirstLetterUpper",
+      "request": "launch",
+      "mainClass": "T059_FirstLetterUpper",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "T058_PasswordValidation",
+      "request": "launch",
+      "mainClass": "T058_PasswordValidation",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "PalindromeStr",
+      "request": "launch",
+      "mainClass": "PalindromeStr",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "PalindromStr",
+      "request": "launch",
+      "mainClass": "PalindromStr",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "ReverseStr",
+      "request": "launch",
+      "mainClass": "ReverseStr",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "PrintStrCount",
+      "request": "launch",
+      "mainClass": "PrintStrCount",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SimpleString",
+      "request": "launch",
+      "mainClass": "SimpleString",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "PrimeMethods",
+      "request": "launch",
+      "mainClass": "PrimeMethods",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "MaxRowElementArray",
+      "request": "launch",
+      "mainClass": "MaxRowElementArray",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "Practice.SortingAlgorithms.BubbleSort",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SplitAscDesc",
+      "request": "launch",
+      "mainClass": "Practice.SplitAscDesc.SplitAscDesc",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "ArithmeticOps",
+      "request": "launch",
+      "mainClass": "ArithmeticOps",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "Armstrong",
+      "request": "launch",
+      "mainClass": "Armstrong",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "Array2D",
+      "request": "launch",
+      "mainClass": "Array2D",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "ArrayLargestNum",
+      "request": "launch",
+      "mainClass": "ArrayLargestNum",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "ArrayPrime",
+      "request": "launch",
+      "mainClass": "ArrayPrime",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "ArrayPrinting",
+      "request": "launch",
+      "mainClass": "ArrayPrinting",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "ConcatenateArray",
+      "request": "launch",
+      "mainClass": "ConcatenateArray",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "CopyArray",
+      "request": "launch",
+      "mainClass": "CopyArray",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "DiagonalsSumArray",
+      "request": "launch",
+      "mainClass": "DiagonalsSumArray",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "FindElement",
+      "request": "launch",
+      "mainClass": "FindElement",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "HelloWorld",
+      "request": "launch",
+      "mainClass": "HelloWorld",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "HollowSqr",
+      "request": "launch",
+      "mainClass": "HollowSqr",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "HorizontalPattern",
+      "request": "launch",
+      "mainClass": "HorizontalPattern",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "IncDec",
+      "request": "launch",
+      "mainClass": "IncDec",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "LargestOfThree",
+      "request": "launch",
+      "mainClass": "LargestOfThree",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "LeapYear",
+      "request": "launch",
+      "mainClass": "LeapYear",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "MultiplyArray2D",
+      "request": "launch",
+      "mainClass": "MultiplyArray2D",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "NumSqrPattern",
+      "request": "launch",
+      "mainClass": "NumSqrPattern",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "Palindrome",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "PhnoDigits",
+      "request": "launch",
+      "mainClass": "PhnoDigits",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "Prime",
+      "request": "launch",
+      "mainClass": "Prime",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "PrintPattern",
+      "request": "launch",
+      "mainClass": "PrintPattern",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "PrintTables",
+      "request": "launch",
+      "mainClass": "PrintTables",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "RevNumSqrPattern",
+      "request": "launch",
+      "mainClass": "RevNumSqrPattern",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "ReverseArray",
+      "request": "launch",
+      "mainClass": "ReverseArray",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "ReverseInteger",
+      "request": "launch",
+      "mainClass": "ReverseInteger",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "RowColSumArray",
+      "request": "launch",
+      "mainClass": "RowColSumArray",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "Shifting",
+      "request": "launch",
+      "mainClass": "Shifting",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SimpleCalculator",
+      "request": "launch",
+      "mainClass": "SimpleCalculator",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SplitArray",
+      "request": "launch",
+      "mainClass": "SplitArray",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SplitAscDesc",
+      "request": "launch",
+      "mainClass": "SplitAscDesc",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SqrPattern",
+      "request": "launch",
+      "mainClass": "SqrPattern",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SumArray",
+      "request": "launch",
+      "mainClass": "SumArray",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SumArray2D",
+      "request": "launch",
+      "mainClass": "SumArray2D",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SumOddEvenElements",
+      "request": "launch",
+      "mainClass": "SumOddEvenElements",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SumOddEvenIndex",
+      "request": "launch",
+      "mainClass": "SumOddEvenIndex",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SumOddOrEven",
+      "request": "launch",
+      "mainClass": "SumOddOrEven",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "SwapAdjacentElements",
+      "request": "launch",
+      "mainClass": "SwapAdjacentElements",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "TransposeMatrix",
+      "request": "launch",
+      "mainClass": "TransposeMatrix",
+      "projectName": "Java - Terv_ab7f3c2d"
+    },
+    {
+      "type": "java",
+      "name": "VerticalPattern",
+      "request": "launch",
+      "mainClass": "VerticalPattern",
+      "projectName": "Java - Terv_ab7f3c2d"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1,h4 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form styles */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="url"],
+input[type="number"],
+input[type="date"],
+input[type="time"],
+input[type="color"],
+input[type="range"],
+input[type="file"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+button {
+    background: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Style for range input */
+input[type="range"] {
+    width: calc(100% - 20px);
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* Flexbox for gender radio buttons */
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.gender-group label {
+    margin-right: 10px;
+}
+
+/* Media query for responsive design */
+@media (max-width: 600px) {
+    .gender-group {
+        width: 100%;
+    }
+}

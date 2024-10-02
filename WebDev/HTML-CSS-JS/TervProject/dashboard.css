@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: rgb(36, 33, 69);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.nav-logo {
+  width: 20%;
+  margin-left: 5%;
+}
+
+.nav-links {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links img {
+  cursor: pointer;
+}
+
+.profile-img {
+  border: none;
+}
+
+.profile-img img {
+  border-bottom: none;
+  border-radius: 50%;
+}
+
+.nav-links a div:hover {
+  border-bottom: 5px solid #6610f2;
+}
+
+.hero-banner {
+  margin: 2% 5% 2% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 5px #cecece, 22px 22px 45px #f2f2f2;
+}
+
+.hero-text {
+  width: 50%;
+  padding: 3%;
+  color: rgb(54, 52, 52);
+}
+
+.hero-text h5 {
+  margin-bottom: 1%;
+  color: grey;
+  font-weight: 550;
+  font-size: 16px;
+}
+
+.hero-text h3{
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.hero-text h5 span {
+  color: #6610f2;
+}
+
+.hero-banner-img {
+  width: 40%;
+  display: flex;
+  justify-content: right;
+}
+
+.hero-banner img {
+  padding-right: 10%;
+  padding-bottom: 5%;
+}

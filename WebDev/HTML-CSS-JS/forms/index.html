@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Noorul Ashfaq</title>
+</head>
+<body>
+    <h1>Noorul Ashfaq</h1>
+    <h4>Submit the form to get in touch!!</h4>
+    <form action="/submit" method="post">
+        <!-- Text input -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <!-- Password input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+
+        <!-- Telephone input -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+        <br><br>
+
+        <!-- URL input -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website">
+        <br><br>
+
+        <!-- Number input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100">
+        <br><br>
+
+        <!-- Date input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br><br>
+
+        <!-- Time input -->
+        <label for="appt">Appointment Time:</label>
+        <input type="time" id="appt" name="appt">
+        <br><br>
+
+        <!-- Color input -->
+        <label for="favcolor">Favorite Color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <br><br>
+
+        <!-- Range input -->
+        <label for="range">Range:</label>
+        <input type="range" id="range" name="range" min="0" max="100">
+        <br><br>
+
+        <!-- Checkbox input -->
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <br><br>
+
+        <!-- Radio button input -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Dropdown select -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="india">India</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br><br>
+
+        <!-- File input -->
+        <label for="resume">Upload your resume:</label>
+        <input type="file" id="resume" name="resume">
+        <br><br>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

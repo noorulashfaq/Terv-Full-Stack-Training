@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Types Example</title>
+    <style>
+      .block-example {
+        /* block makes the specific content to block the whole line */
+        display: block;
+        background-color: lightblue;
+        margin: 10px;
+      }
+
+      .inline-example {
+        display: inline;
+        background-color: lightgreen;
+        padding: 5px;
+        margin: 5px;
+        height: 20px;
+        /* height cannot be fixed if display is in inline */
+      }
+
+      .inline-block-example {
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+        background-color: lightcoral;
+        margin: 5px;
+        /* if display is in inline block we can set height */
+      }
+
+      .none-example {
+        display: none;
+      }
+
+      .flex-container {
+        /* display flex:  makes the div to be flexible for design */
+        /* flex: 1;  makes the div to be flexible for design */
+        display: flex;
+        background-color: lightgrey;
+        padding: 10px;
+      }
+
+      .flex-item {
+        background-color: lightpink;
+        margin: 5px;
+        padding: 10px;
+        flex: 1;
+      }
+
+      .grid-container {
+        /* disply grid allow the div to be in grid format */
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 for no of div in one line */
+        gap: 10px;
+        background-color: lightyellow;
+        padding: 10px;
+      }
+
+      .grid-item {
+        background-color: lightblue;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Display Types in CSS</h1>
+
+    <h2>Block Display</h2>
+    <div class="block-example">Block Element 1</div>
+    <div class="block-example">Block Element 2</div>
+
+    <h2>Inline Display</h2>
+    <span class="inline-example">Inline Element 1</span>
+    <span class="inline-example">Inline Element 2</span>
+
+    <h2>Inline-Block Display</h2>
+    <div class="inline-block-example">Inline-Block 1</div>
+    <div class="inline-block-example">Inline-Block 2</div>
+
+    <h2>None Display</h2>
+    <div class="none-example">This element is not displayed.</div>
+
+    <h2>Flex Display</h2>
+    <div class="flex-container">
+      <div class="flex-item">Flex Item 1</div>
+      <div class="flex-item">Flex Item 2</div>
+      <div class="flex-item">Flex Item 3</div>
+    </div>
+
+    <h2>Grid Display</h2>
+    <div class="grid-container">
+      <div class="grid-item">Grid Item 1</div>
+      <div class="grid-item">Grid Item 2</div>
+      <div class="grid-item">Grid Item 3</div>
+      <div class="grid-item">Grid Item 4</div>
+      <div class="grid-item">Grid Item 5</div>
+      <div class="grid-item">Grid Item 6</div>
+    </div>
+  </body>
+</html>

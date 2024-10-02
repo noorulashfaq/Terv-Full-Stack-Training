@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign in</title>
+  </head>
+  <body>
+    <header>
+      <marquee behavior="" direction="right">
+        <h1>Welcome to Terv Pro</h1>
+      </marquee>
+    </header>
+    <section id="homepage">
+      <div id="signin-img">
+        <div class="signin-div">
+          <img
+            src="https://terv.pro/static/media/Frame2.d2941aa0.png"
+            alt="singin-image"
+          />
+        </div>
+      </div>
+      <div id="signin">
+        <div class="signin-title">
+          <h1>Welcome to Terv</h1>
+          <h5>Enter your details and login</h5>
+        </div>
+        <input placeholder="Email *" type="email" />
+        <input placeholder="Password *" type="password" />
+        <a href="" onclick="err()">Forget password?</a>
+        <input
+          class="signin-btn"
+          onclick="signin()"
+          type="submit"
+          value="Sign In"
+        />
+        <p>Don't have an account?</p>
+        <input
+          class="signup-btn"
+          onclick="signup()"
+          type="button"
+          value="Sign Up"
+        />
+        <div class="icons">
+          <a href="https://www.instagram.com" target="_blank"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com" target="_blank"
+            ><i class="fa fa-facebook"></i
+          ></a>
+          <a href="https://www.linkedin.com" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <script>
+      function signin() {
+        window.location.href = "dashboard.html";
+      }
+      function signup() {
+        window.location.href = "signup.html";
+      }
+      function err() {
+        alert("Page under construction!!!");
+      }
+    </script>
+  </body>
+</html>
